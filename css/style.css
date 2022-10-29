@@ -18,7 +18,7 @@ body {
     background-color: var(--dark-cyan);
     background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
     background-repeat: no-repeat no-repeat;
-    background-position: top -117vh  right 48vw, bottom -52vh left 46vw;
+    background-position: top -117vh  right 48vw, bottom -89vh left 50vw;
     margin: 1rem 2.5rem 7.16rem 2.38rem;
     
 }
@@ -120,6 +120,7 @@ ul li .sans-text {
 @media(min-width: 600px) {
     body {
         background-position: top -60vh  right 51vw, bottom -70vh left 50vw;
+        margin: 0.70rem 2.5rem 7.16rem 2.38rem;
     }
 
     .container-profile {
